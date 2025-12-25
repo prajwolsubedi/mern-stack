@@ -1,0 +1,27 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "technotes mern projct",
+  "homepage": "https://github.com/prajwolsubedi/mern-stack#readme",
+  "bugs": {
+    "url": "https://github.com/prajwolsubedi/mern-stack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwolsubedi/mern-stack.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
